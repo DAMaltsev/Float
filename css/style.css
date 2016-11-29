@@ -1,0 +1,175 @@
+
+/******COMMON*******/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+
+.main {
+    width:60%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+li{
+    list-style: none;
+    margin-bottom:12px;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#fixed{
+    position: fixed;
+    margin:auto;
+    left: 45%;
+    top: 90%;
+    text-decoration: underline;
+    color:blue;
+}
+
+
+/*******LINKS********/
+
+
+a {
+    text-decoration: none;
+    color: royalblue
+}
+
+a:visited {
+    color:cornflowerblue;
+}
+
+a:hover {
+    color: tomato;
+}
+
+
+/*********HEADER***********/
+
+.header {
+    border:5px dotted lightgrey;
+    background: white;
+    margin-top:12px;
+}
+
+h1{
+  text-align: center;
+    margin: 0;
+    border-bottom: 5px dotted lightgrey;
+    padding-bottom: 1%;
+}
+
+.menu {
+    width:50%;
+    float:left;
+    text-align: center
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+
+.ha{
+    position: absolute;
+    margin: 80px 100px;
+}
+
+#avatar {
+    border-radius: 100%;
+    max-width: 150px;
+    display: block;
+    margin:auto;
+    margin-bottom:5%;
+}
+
+/*********SECTION***********/
+
+.section {
+    background: white;
+    margin-top:12px;
+    border:5px dotted lightgrey;
+}
+
+#nun {
+    max-width: 100%;
+    transition: transform 0.5s;
+}
+ 
+#nun:hover{
+     transform:translate(20px, -20px);
+}
+
+.main-menu {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    float:left;
+    border-right: 5px dotted lightgrey;
+}
+
+.main-menu li {
+    list-style: none;
+    margin-top: 20%; 
+}
+
+.section2{
+    float: right;
+    width:60%;
+    margin: auto;
+}
+
+.menu2{
+    width:45%;
+    float: right;
+    margin-right: 5%;
+}
+
+.nun {
+    width:50%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+/*******FOOTER********/
+
+footer{
+    background: white;
+    margin-top:12px;
+    margin-bottom:12px;
+    border:5px dotted lightgrey;
+    padding-bottom: 12px;
+}
+
+#h4{
+    text-align: center;
+    border-bottom: 5px dotted lightgrey;
+}
+
+
+#m1{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    
+}
+
+#m2{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+#m3{
+    width: 30%;
+    float: left;
+}
